@@ -1,0 +1,395 @@
+/* Fonts Google */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    margin: 0 auto;
+    background: #333333;
+}
+
+
+header{
+    /* Rectangle 1 */
+    padding: 0px 4px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 0px 0px 29.6338px 29.6338px;
+    height: 145px;
+    position: relative;
+    top: -18px;
+}
+
+header .logo{
+    left: 21.73px;
+    top: 14px;
+    background: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 218px;
+    height: 103px;
+    position: relative;
+    display: inline-block;
+
+}
+
+center{
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47.5503px;
+    line-height: 76px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+
+    position:relative;
+    top: -54px;
+}
+
+header .auth .register{
+    background: rgba(221, 221, 221, 0.05);
+    border-radius: 17.7803px;
+    display: inline-block;
+    font-size: 23px;
+    transform: scale(0.9);
+    padding: 6px;
+    height: 41px;
+}
+
+header .auth .login{
+    background: rgba(221, 221, 221, 0.15);
+    border-radius: 17.7803px;
+    display: inline-block;
+    font-size: 26.7295px;
+    /* width: 172px; */
+    padding: 8px;
+    height: 41px;
+}
+
+header .auth .register span,
+header .auth .login span
+{
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 52px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    position: relative;
+    top: -4px;
+}
+
+
+header center,
+header .auth{
+    /*display: inline-block;*/
+}
+
+header .auth{
+    position: absolute;
+    right: 60px;
+    top: 55px;
+}
+
+/* Main Content */
+
+main aside .box1{
+    position: static;
+    width: 100vw;
+    height: 456.3px;
+    top: 210px;
+    background: url(img/pexels-photo-417074.jpeg) no-repeat;
+    background-size: cover;
+    border-radius: 28.6345px;
+}
+
+
+main aside .box1 .title {
+    top: -10px;
+    line-height: 133px;
+}
+
+main aside .box1 .description {
+    font-weight: 400;
+    font-size: 27.5605px;
+    line-height: 57px;
+    width: 634.31px;
+    height: 174.84px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+main aside .box1 .view_more {
+    background: rgba(217, 217, 217, 0.4);
+    border-radius: 13.8291px;
+    width: 198.59px;
+    height: 60.26px;
+    font-weight: 400;
+    font-size: 32.1412px;
+    line-height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    text-align: center;
+}
+
+main aside .box1 .view_more span{
+    position: relative;
+    top: 5px;
+}
+
+main aside .title_offer{
+    margin-top: 100px;
+}
+
+main aside .box_vm{
+    width: 434px;
+    height: 500px;
+    margin-left: 20px;
+    background: rgba(217, 217, 217, 0.56);
+    border-radius: 17px;
+    display: inline-block;
+    margin-top: -63px;
+}
+
+main aside .box_vm .title_offer{
+    line-height: 74px;
+    margin-top: 81px;
+}
+
+main aside .box_vm .price_offer{
+    font-size: 34.6619px;
+    line-height: 55px;
+}
+
+main aside .box_vm center .addons_list{
+    text-align: justify;
+}
+
+main aside .box_vm center .addons_list .tag{
+    background-image: url("img/archivetick.png");
+    height: 42px;
+    width: 32px;
+    position: relative;
+    left: 13.6%;
+}
+
+main aside .box_vm center .addons_list pos{
+    font-size: 28.6135px;
+    line-height: 46px;  
+    color: black;
+    position: relative;
+    top: -63px;
+    left: 95px;
+}
+
+main aside .box_vm center .addons_list p{
+    margin: -69px;
+}
+
+main aside .box_vm center .try_it{
+    width: 242px;
+    height: 58px;
+    left: 42px;
+    top: 79px;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto;
+
+    background: rgba(17, 172, 221, 0.48);
+    border-radius: 10px;
+}
+
+main aside .box_vm center .try_it span{
+    width: 210.74px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 23.0152px;
+    line-height: 37px;
+    position: relative;
+    top: -15px;
+}
+
+
+main aside .title_reviews{
+    margin-top: 130px;
+    margin-bottom: -70px;
+}
+
+main aside .customer_review{
+    width: 449px;
+    height: 169px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 17px;
+    display: inline-block;
+    margin-left:10px;
+    margin-top: 12px;
+}
+
+main aside .customer_review center{
+    top: 14px;
+}
+
+main aside .customer_review center .customer{
+    font-size: 41.9894px;
+    line-height: 67px;
+}
+
+main aside .customer_review center .stars{
+    width: 340px;
+    height: 48px;
+    margin-left: 12%;
+}
+
+/* Footer Content */
+
+footer{
+    /*height: 187px;*/
+    left: 0px;
+    margin-top: 10%;
+    position: relative;
+
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 29.6px 29.6px 0px 0px;
+}
+
+footer .logo{
+    width: 294px;
+    height: 171px;
+    position: absolute;
+    top: 17px;
+    background: url(img/logo2.png);
+}
+
+footer center{
+    position: relative;
+    top: 62px;
+}
+
+footer center .service-name{
+    font-weight: 400;
+    font-size: 53.8969px;
+    line-height: 86px;
+}
+
+footer center .copyright{
+    font-weight: 400;
+    font-size: 24.3157px;
+    line-height: 39px;
+    text-align: center;
+}
+
+footer .social-media{
+    width: 364px;
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    top: 56%;
+}
+
+footer .social-media .box{
+    width: 73px;
+    height: 70px;
+    position: relative;
+
+    display: inline-block;
+    margin-left: 10px;
+
+    background: rgba(217, 217, 217, 0.22);
+    border-radius: 13px;
+}
+
+footer .social-media .box .icon{
+    width: 43px;
+    height: 43px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+
+/* other styles */
+
+a[href]{
+    text-decoration: none;
+    color: white;
+}
+
+.alert{
+    color: rgb(176, 42, 42);
+}
+
+.star {
+    --star-color:#F1C644;
+    margin:1em auto;
+    font-size:26px;
+    position: relative;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);
+}
+
+.empty-star{
+    --star-color:#D4D4D4;
+    margin:1em auto;
+    font-size:26px;
+    position: relative;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);    
+}
+
+.star:before,
+.empty-star:before {
+    border-bottom: 0.8em solid var(--star-color);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -0.45em;
+    left: -0.65em;
+    display: block;
+    content:"";
+    transform: rotate(-35deg);
+}
+.star:after,
+.empty-star:after {
+    position: absolute;
+    display: block;
+    top: 0.03em;
+    left: -1.05em;
+    width: 0;
+    height: 0;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(-70deg);
+    content:"";
+}
+
+.page{
+    background-image: url("img/social/global.png");
+}
+
+.github{
+    background-image: url("img/social/GitHub.png");
+}
+
+.linkedin{
+    background-image: url("img/social/LinkedIn\ Circled.png");
+}
+
+.youtube{
+    background-image: url("img/social/YouTube.png");
+}
